@@ -407,10 +407,14 @@
     </section>
 
     <section id="contact" class="contact">
-        <div class="container contact-content">
-            <div class="contact-info">
+        <div class="container">
+            <div class="section-header">
                 <span class="section-subtitle">Get In Touch</span>
                 <h2 class="section-title">Let's Connect</h2>
+            </div>
+            
+            <!-- Contact Info Cards (Centered) -->
+            <div class="contact-info">
                 <div class="contact-card">
                     <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
                     <div class="contact-details">
@@ -432,15 +436,16 @@
                         <p>Addis Ababa, Ethiopia</p>
                     </div>
                 </div>
-                <div class="social-links">
-                    <h3>Follow My Work</h3>
+                
+                <div class="social-links" style="margin-top: 1rem;">
                     <div class="social-grid">
                         <a href="https://www.linkedin.com/in/hanna-teshager" class="social-link" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
                         <a href="https://github.com/hanna-tes" class="social-link" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                     </div>
                 </div>
             </div>
-            
+    
+            <!-- Centered Form -->
             <form class="contact-form">
                 <div class="form-group">
                     <input type="text" placeholder="Your Name" required>
@@ -460,7 +465,9 @@
                 <div class="form-group">
                     <textarea rows="5" placeholder="Your Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
             </form>
         </div>
     </section>
