@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanna Teshager | AI Systems Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <div class="logo-icon">HT</div>
+                <span class="logo-text">Hanna<span>Teshager</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1 class="hero-title">Combating Disinformation with <span class="highlight">AI & NLP</span></h1>
+                <p class="hero-subtitle">
+                    I specialize in building scalable NLP pipelines, multilingual LLM applications, and real-time analytics tools 
+                    to detect coordinated inauthentic behavior across African digital ecosystems. Leveraging Python, TensorFlow, 
+                    Hugging Face, and AWS to turn complex data into actionable intelligence.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">9M+</span>
+                        <span class="stat-label">Posts Analyzed Daily</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">92%</span>
+                        <span class="stat-label">F1-Score (Multilingual)</span>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View Projects</a>
+                    <a href="Hanna Teshager Resume (2).pdf" class="btn btn-secondary" download><i class="fa-solid fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+            
+            <div class="profile-container">
+                <div class="profile-image">
+                    <!-- Updated to match your actual filename -->
+                    <img src="photoH.jpg" alt="Hanna Teshager">
+                    
+                    <!-- Floating Tech Nodes Animation -->
+                    <div class="floating-icons">
+                        <div class="floating-icon icon-1"><i class="fa-brands fa-python"></i></div>
+                        <div class="floating-icon icon-2"><i class="fa-solid fa-brain"></i></div>
+                        <div class="floating-icon icon-3"><i class="fa-brands fa-aws"></i></div>
+                        <div class="floating-icon icon-4"><i class="fa-solid fa-database"></i></div>
+                        <div class="floating-icon icon-5"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="floating-icon icon-6"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="floating-icon icon-7"><i class="fa-solid fa-code"></i></div>
+                        <div class="floating-icon icon-8"><i class="fa-solid fa-chart-line"></i></div>
+                    </div>
+                    
+                    <!-- Decorative Circles -->
+                    <div class="decoration-circle circle-1"></div>
+                    <div class="decoration-circle circle-2"></div>
+                    <div class="decoration-circle circle-3"></div>
+                </div>
+                
+                <div class="social-under-profile">
+                    <a href="https://www.linkedin.com/in/hanna-teshager" class="social-link" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/hanna-tes" class="social-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:teshager.hanna@gmail.com" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <span class="section-subtitle">My Mission</span>
+                <h2 class="section-title">About Hanna</h2>
+                <p>
+                    I'm Hanna Teshager, an AI Systems Engineer with 4+ years of experience leveraging Python, NLP, and machine learning 
+                    to combat disinformation and extract actionable insights across African digital landscapes. Currently working on AI infrastructure 
+                    at Code for Africa, I build automated pipelines that analyze millions of social media posts daily to identify coordinated inauthentic behavior.
+                </p>
+                <p>
+                    My expertise spans multilingual text modeling (Swahili, French, English, Bambara, Yoruba), 
+                    LLM deployment (Llama 3, Gemma, Hugging Face Transformers), and end-to-end ML system architecture. 
+                    I'm passionate about empowering journalists and analysts with OSINT tools and data storytelling techniques 
+                    to strengthen democratic discourse across the continent.
+                </p>
+                
+                <div class="experience-highlights">
+                    <div class="exp-item"><span class="exp-number">Code for Africa</span><span class="exp-label">AI Systems Engineer</span></div>
+                    <div class="exp-item"><span class="exp-number">M.S.</span><span class="exp-label">Data Science & Analytics</span></div>
+                    <div class="exp-item"><span class="exp-number">50+</span><span class="exp-label">Journalists Trained</span></div>
+                </div>
+
+                <div class="mission">
+                    "My mission is to equip organizations with AI-powered tools that detect manipulation, 
+                    uncover truth, and safeguard public discourse. I don't just build models – I build defenses 
+                    for democratic information ecosystems."
+                </div>
+            </div>
+            
+            <div class="image-frame-container">
+                <div class="image-frame">
+                    <div class="image-frame-inner">
+                        <img src="photoH.jpg" alt="Hanna Teshager Profile" class="profile-about-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="tools">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Toolkit</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fa-brands fa-python"></i></div>
+                    <h3>Python & ML Frameworks</h3>
+                    <p>End-to-end ML development and deployment</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">Scikit-learn</span><span class="tool-tag">TensorFlow</span>
+                        <span class="tool-tag">PyTorch</span><span class="tool-tag">Hugging Face</span>
+                        <span class="tool-tag">PEFT</span><span class="tool-tag">Streamlit</span>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>NLP & LLMs</h3>
+                    <p>Multilingual text analysis and generative AI</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">BERT</span><span class="tool-tag">SentenceTransformers</span>
+                        <span class="tool-tag">Llama 3 / Gemma</span><span class="tool-tag">Topic Modeling</span>
+                        <span class="tool-tag">Zero-shot Classification</span><span class="tool-tag">Multilingual NLP</span>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fa-brands fa-aws"></i></div>
+                    <h3>Cloud & Data Engineering</h3>
+                    <p>Scalable pipelines and infrastructure</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">AWS (EC2, Lambda)</span><span class="tool-tag">ETL Pipelines</span>
+                        <span class="tool-tag">GPU Acceleration</span><span class="tool-tag">PostgreSQL</span>
+                        <span class="tool-tag">API Deployment</span><span class="tool-tag">Selenium Scraping</span>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fa-solid fa-chart-network"></i></div>
+                    <h3>Visualization & OSINT</h3>
+                    <p>Network mapping and intelligence dashboards</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">Tableau</span><span class="tool-tag">Gephi</span>
+                        <span class="tool-tag">Plotly/Chart.js</span><span class="tool-tag">Flourish</span>
+                        <span class="tool-tag">Social Network Analysis</span><span class="tool-tag">OSINT Techniques</span>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Domain Expertise</h3>
+                    <p>African digital ecosystems & disinformation</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">FIMI Detection</span><span class="tool-tag">Election Monitoring</span>
+                        <span class="tool-tag">CIB Detection</span><span class="tool-tag">Multilingual Content</span>
+                        <span class="tool-tag">Cross-platform Analysis</span><span class="tool-tag">Narrative Tracking</span>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Leadership & Training</h3>
+                    <p>Capacity building and cross-functional collaboration</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">Journalist Training</span><span class="tool-tag">Data Storytelling</span>
+                        <span class="tool-tag">OSINT Workshops</span><span class="tool-tag">Team Mentorship</span>
+                        <span class="tool-tag">Technical Documentation</span><span class="tool-tag">Stakeholder Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Featured Work</span>
+                <h2 class="section-title">Key Projects</h2>
+            </div>
+            <div class="projects-grid">
+                
+                <!-- MamaSpace AI -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <h3>MamaSpace AI: Maternal Mental Health Companion</h3>
+                        <span class="project-subtitle">Guardrailed GenAI RAG System (English & Amharic)</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Built a clinically safe, empathetic postpartum support system with deterministic crisis escalation and bilingual safety guardrails for Ethiopian mothers.</p>
+                        <div class="project-details">
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Engineered bilingual safety guardrails bypassing LLM for self-harm keywords</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Deployed Llama-3.3-70B via Groq with zero-temp few-shot Amharic prompting</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Built RAG pipeline using PGVector + Neon DB with verified medical sources</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Dual-platform: Streamlit web app + async Telegram bot for low-bandwidth access</div>
+                        </div>
+                        <div class="project-tools">
+                            <span class="project-tool">Llama 3</span><span class="project-tool">Groq</span>
+                            <span class="project-tool">PGVector</span><span class="project-tool">Streamlit</span>
+                            <span class="project-tool">Telegram Bot API</span><span class="project-tool">Render</span>
+                        </div>
+                        <a href="https://github.com/hanna-tes/MamaSpace-AI" class="project-link" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Ethiopia Election Monitoring -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-flag"></i>
+                        <h3>Ethiopia Election Monitoring & Disinfo Analysis</h3>
+                        <span class="project-subtitle">Full-Stack AI Engineer | Hybrid Hate-Speech Detection</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Engineered a hybrid hate-speech detection system integrating custom multilingual regex lexicons, Groq LLM analysis, and fine-tuned Gemma LoRA models.</p>
+                        <div class="project-details">
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Classified 19 distinct categories of weaponized language (Amharic/Oromo/English)</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Developed coordination detection engine using TF-IDF + sparse matrix cosine similarity</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Integrated DISARM framework module to map TTPs of inauthentic influence ops</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Built Django/PostgreSQL web app with Plotly visualizations & multi-dim filtering</div>
+                        </div>
+                        <div class="project-tools">
+                            <span class="project-tool">Gemma LoRA</span><span class="project-tool">PEFT</span>
+                            <span class="project-tool">Django</span><span class="project-tool">PostgreSQL</span>
+                            <span class="project-tool">NetworkX</span><span class="project-tool">AWS EC2</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Automated Disinformation Pipeline -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-radar"></i>
+                        <h3>Automated Disinformation Detection Pipeline</h3>
+                        <span class="project-subtitle">Real-time analysis of 9M+ social media posts daily</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Developed an end-to-end NLP pipeline using Python to identify coordinated inauthentic behavior and map malicious networks across X, TikTok, Telegram, and news media.</p>
+                        <div class="project-details">
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Processed 9M+ posts/day with 35% improvement in detection accuracy</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Reduced manual analysis time by 60% through automation</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Deployed BERT-based clustering (TF-IDF + DBSCAN) to identify coordinated groups</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Automated LLM-powered intelligence summaries for weekly election reports</div>
+                        </div>
+                        <div class="project-tools">
+                            <span class="project-tool">Python</span><span class="project-tool">BERT</span>
+                            <span class="project-tool">LDA/NMF</span><span class="project-tool">Selenium</span>
+                            <span class="project-tool">AWS Lambda</span>
+                        </div>
+                        <a href="https://github.com/hanna-tes/Disinfo_monitoring_RadarSystem" class="project-link" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Multilingual Trending Topics -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-globe-africa"></i>
+                        <h3>Multilingual Trending Topic Detection</h3>
+                        <span class="project-subtitle">Llama 3 zero-shot classification across 5 African languages</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Deployed Llama 3 (via Groq API) for zero-shot classification of multilingual content to detect trending topics during elections across multiple African countries.</p>
+                        <div class="project-details">
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Achieved 92% F1-score for multilingual trending topic detection</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Built Streamlit Cloud app for real-time narrative tracking in 4 languages</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Unified 1M+ posts into clean analytical pipeline with robust normalization</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Enabled cross-platform trend analysis for French/English election monitoring</div>
+                        </div>
+                        <div class="project-tools">
+                            <span class="project-tool">Llama 3</span><span class="project-tool">Groq API</span>
+                            <span class="project-tool">Streamlit</span><span class="project-tool">Pandas</span>
+                            <span class="project-tool">Plotly</span>
+                        </div>
+                        <a href="https://github.com/hanna-tes/tweet-data-analysis" class="project-link" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- FIMI Vulnerability Index -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h3>FIMI Vulnerability Index Tool</h3>
+                        <span class="project-subtitle">Interactive dashboard measuring susceptibility to foreign info manipulation</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Led end-to-end development of an interactive dashboard measuring national susceptibility to Foreign Information Manipulation and Interference (FIMI).</p>
+                        <div class="project-details">
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Designed full-stack architecture: Django backend, PostgreSQL, JavaScript frontend</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Implemented real-time ML pipeline using PEFT, transformer ensembles, and PPI</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Built contextual risk adjustment module based on geopolitical factors</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Integrated Groq-powered AI chatbot for narrative interrogation</div>
+                        </div>
+                        <div class="project-tools">
+                            <span class="project-tool">Django</span><span class="project-tool">PostgreSQL</span>
+                            <span class="project-tool">PEFT</span><span class="project-tool">Transformer Ensembles</span>
+                            <span class="project-tool">AWS EC2</span>
+                        </div>
+                        <a href="#" class="project-link">View Demo <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Dynamic Web Scraper -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-spider"></i>
+                        <h3>Dynamic Web Content Scraper</h3>
+                        <span class="project-subtitle">Automated data extraction from JavaScript-heavy websites</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Built an advanced web scraping tool using Selenium to extract dynamic content from JavaScript-rendered websites for OSINT research.</p>
+                        <div class="project-details">
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Handled JavaScript-heavy sites with infinite scroll and dynamic loading</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Implemented headless browser automation with customizable wait conditions</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Extracted structured data from complex DOM structures and nested elements</div>
+                            <div class="detail-item"><i class="fa-solid fa-check"></i> Built robust error handling and retry mechanisms for reliable scraping</div>
+                        </div>
+                        <div class="project-tools">
+                            <span class="project-tool">Python</span><span class="project-tool">Selenium</span>
+                            <span class="project-tool">WebDriver</span><span class="project-tool">BeautifulSoup</span>
+                            <span class="project-tool">Pandas</span>
+                        </div>
+                        <a href="https://github.com/hanna-tes/Nirraland-page-datascraper" class="project-link" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Professional Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                
+                <!-- NEW ROLE: Senior AI Systems Engineer -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2025 – Present</span>
+                        <h3> AI Systems Engineer</h3>
+                        <h4>Code for Africa (Remote)</h4>
+                        <p>Build AI infrastructure development: Architect multilingual LLM pipelines (Llama 3/Gemma), deploy RAG systems for maternal health (MamaSpace AI), and build full-stack ML platforms (Django/PostgreSQL/AWS). Transitioned team workflows from manual analysis to automated intelligence generation. Engineered hybrid hate-speech detection systems classifying 19 categories of weaponized language using Gemma LoRA and PEFT.</p>
+                    </div>
+                </div>
+
+                <!-- PREVIOUS ROLE: Investigative Data Analyst -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2021 – Dec 2024</span>
+                        <h3>Investigative Data Analyst</h3>
+                        <h4>Code for Africa (Remote)</h4>
+                        <p>Built foundational NLP pipelines analyzing 9M+ posts/day. Trained 50+ journalists in OSINT techniques. Developed FIMI Vulnerability Index and election monitoring tools. Pioneered multilingual disinformation detection across 5 African languages using BERT and zero-shot classification. Reduced manual analysis time by 60% through automation and LLM-powered intelligence summaries.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 – 2020</span>
+                        <h3>M.S. in Data Science & Analytics</h3>
+                        <h4>University of Gondar, Ethiopia</h4>
+                        <p>Graduate research on "Cardiovascular Disease Risk Prediction using Machine Learning Techniques" (Published: Springer/ResearchGate). Focused on supervised learning, feature engineering, and model evaluation.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2016 – 2018</span>
+                        <h3>B.S. in Information Science</h3>
+                        <h4>University of Gondar, Ethiopia</h4>
+                        <p>Focus on data management, information systems, and network infrastructure. Completed CCNA certification and foundational coursework in database design.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-content">
+            <div class="contact-info">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>teshager.hanna@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>+251 973 221 300</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Addis Ababa, Ethiopia</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Follow My Work</h3>
+                    <div class="social-grid">
+                        <a href="https://www.linkedin.com/in/hanna-teshager" class="social-link" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                        <a href="https://github.com/hanna-tes" class="social-link" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Select Inquiry Type</option>
+                        <option value="research">Research Collaboration</option>
+                        <option value="consulting">Technical Consulting</option>
+                        <option value="training">OSINT/NLP Training</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <div class="logo-icon">HT</div>
+                <span class="logo-text">Hanna<span>Teshager</span></span>
+            </div>
+            <p class="footer-tagline"> AI Systems Engineer | NLP • Disinformation Analysis • Multilingual AI</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/hanna-teshager" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/hanna-tes" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:teshager.hanna@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2026 Hanna Teshager. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        }
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) navbar.classList.add('scrolled');
+            else navbar.classList.remove('scrolled');
+        });
+    </script>
+</body>
+</html>
